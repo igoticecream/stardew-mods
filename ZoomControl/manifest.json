@@ -1,0 +1,12 @@
+﻿{
+  "Name": "ZoomControl",
+  "Author": "igoticecream",
+  "Version": "1.0.0",
+  "Description": "Keeps zoom configuration locally",
+  "UniqueID": "igoticecream.ZoomControl",
+  "EntryDll": "ZoomControl.dll",
+  "MinimumApiVersion": "3.0.0",
+  "UpdateKeys": [
+    "GitHub:igoticecream/stardew-mods"
+  ]
+}

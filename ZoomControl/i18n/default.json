@@ -1,0 +1,13 @@
+﻿{
+    "settings.zoomlevel.name": "Zoom level",
+    "settings.zoomlevel.tooltip": "The value of the desired zoom level.",
+
+    "settings.zoomlevelkey.name": "Zoom level hold key",
+    "settings.zoomlevelkey.tooltip": "Keybinds that need to be held to change the zoom level using the mouse wheel.",
+
+    "settings.uiscale.name": "UI scale",
+    "settings.uiscale.tooltip": "The value of the desired UI scale.",
+
+    "settings.uiscalekey.name": "UI scale hold key",
+    "settings.uiscalekey.tooltip": "Keybinds that need to be held to change the UI scale using the mouse wheel."
+}
