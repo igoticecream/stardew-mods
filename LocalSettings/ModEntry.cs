@@ -2,7 +2,7 @@ using StardewModdingAPI;
 using StardewModdingAPI.Events;
 using StardewValley;
 
-namespace LocalZoom
+namespace LocalSettings
 {
     internal sealed class ModEntry : Mod
     {

@@ -1,4 +1,4 @@
-﻿namespace LocalZoom
+namespace LocalSettings
 {
     internal class ModConfig
     {

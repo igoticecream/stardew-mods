@@ -1,10 +1,10 @@
 ﻿{
-  "Name": "LocalZoom",
+  "Name": "LocalSettings",
   "Author": "igoticecream",
   "Version": "1.0.0",
   "Description": "Keeps zoom configuration locally",
-  "UniqueID": "igoticecream.LocalZoom",
-  "EntryDll": "LocalZoom.dll",
+  "UniqueID": "igoticecream.LocalSettings",
+  "EntryDll": "LocalSettings.dll",
   "MinimumApiVersion": "3.0.0",
   "UpdateKeys": []
 }
