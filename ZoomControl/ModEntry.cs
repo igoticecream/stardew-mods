@@ -108,14 +108,14 @@ namespace ZoomControl
                     this.UpdateZoomLevelBy(+INTERVAL);
 
                     if (!(Game1.player.UsingTool && (Game1.player.CurrentTool == null || !(Game1.player.CurrentTool is FishingRod fishingRod) || (!fishingRod.isReeling && !fishingRod.pullingOutOfWater))))
-                        Game1.player.CurrentToolIndex += 1;
+                        Game1.player.CurrentToolIndex += Game1.options.invertScrollDirection ? -1 : 1;
                 }
                 else if (e.Delta < 0)
                 {
                     this.UpdateZoomLevelBy(-INTERVAL);
 
                     if (!(Game1.player.UsingTool && (Game1.player.CurrentTool == null || !(Game1.player.CurrentTool is FishingRod fishingRod) || (!fishingRod.isReeling && !fishingRod.pullingOutOfWater))))
-                        Game1.player.CurrentToolIndex -= 1;
+                        Game1.player.CurrentToolIndex += Game1.options.invertScrollDirection ? 1 : -1;
                 }
             }
             if (this.Config.UiScaleKey.IsDown())
@@ -125,14 +125,14 @@ namespace ZoomControl
                     this.UpdateUIScaleBy(+INTERVAL);
 
                     if (!(Game1.player.UsingTool && (Game1.player.CurrentTool == null || !(Game1.player.CurrentTool is FishingRod fishingRod) || (!fishingRod.isReeling && !fishingRod.pullingOutOfWater))))
-                        Game1.player.CurrentToolIndex += 1;
+                        Game1.player.CurrentToolIndex += Game1.options.invertScrollDirection ? -1 : 1;
                 }
                 else if (e.Delta < 0)
                 {
                     this.UpdateUIScaleBy(-INTERVAL);
 
                     if (!(Game1.player.UsingTool && (Game1.player.CurrentTool == null || !(Game1.player.CurrentTool is FishingRod fishingRod) || (!fishingRod.isReeling && !fishingRod.pullingOutOfWater))))
-                        Game1.player.CurrentToolIndex -= 1;
+                        Game1.player.CurrentToolIndex += Game1.options.invertScrollDirection ? 1 : -1;
                 }
             }
         }
