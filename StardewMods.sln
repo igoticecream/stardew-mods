@@ -14,6 +14,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "root", "root", "{EB7C6E70-0
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZoomControl", "ZoomControl\ZoomControl.csproj", "{EC56EAAB-98F6-4831-A544-C9B4FF730941}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeySuppressor", "KeySuppressor\KeySuppressor.csproj", "{15E93471-7B60-4843-8E21-7336D6487165}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,6 +26,10 @@ Global
 		{EC56EAAB-98F6-4831-A544-C9B4FF730941}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EC56EAAB-98F6-4831-A544-C9B4FF730941}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EC56EAAB-98F6-4831-A544-C9B4FF730941}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15E93471-7B60-4843-8E21-7336D6487165}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15E93471-7B60-4843-8E21-7336D6487165}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15E93471-7B60-4843-8E21-7336D6487165}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15E93471-7B60-4843-8E21-7336D6487165}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
