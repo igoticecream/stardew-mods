@@ -331,7 +331,7 @@ namespace KeySuppressor
             // ------------
             configMenu?.AddSectionTitle(
                 mod: this.ModManifest,
-                text: () => "DPad Buttons"
+                text: () => "Misc"
             );
 
             configMenu?.AddBoolOption(
