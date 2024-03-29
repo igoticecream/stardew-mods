@@ -5,9 +5,15 @@
     "settings.zoomlevelkey.name": "Zoom level hold key",
     "settings.zoomlevelkey.tooltip": "Keybinds that need to be held to change the zoom level using the mouse wheel.",
 
+    "settings.zoomlevelresetkey.name": "Zoom level reset key",
+    "settings.zoomlevelresetkey.tooltip": "Keybinds that need to be held to reset the zoom level to the desired value.",
+
     "settings.uiscale.name": "UI scale",
     "settings.uiscale.tooltip": "The value of the desired UI scale.",
 
     "settings.uiscalekey.name": "UI scale hold key",
-    "settings.uiscalekey.tooltip": "Keybinds that need to be held to change the UI scale using the mouse wheel."
+    "settings.uiscalekey.tooltip": "Keybinds that need to be held to change the UI scale using the mouse wheel.",
+
+    "settings.uiscaleresetkey.name": "UI scale reset key",
+    "settings.uiscaleresetkey.tooltip": "Keybinds that need to be held to reset the UI scale to the desired value."
 }
