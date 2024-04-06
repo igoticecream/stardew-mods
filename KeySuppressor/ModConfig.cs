@@ -83,6 +83,7 @@ namespace KeySuppressor
         public KeybindList QuestMenuKey { get; set; } = KeybindList.Parse("None");
         public KeybindList MapMenuKey { get; set; } = KeybindList.Parse("None");
         public KeybindList CraftingMenuKey { get; set; } = KeybindList.Parse("None");
+        public KeybindList SpecialOrdersMenuKey { get; set; } = KeybindList.Parse("None");
 
         public bool InstantEmoteMenu = false;
     }

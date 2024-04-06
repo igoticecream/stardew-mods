@@ -46,6 +46,9 @@ namespace KeySuppressor
 
             if (this.Config.CraftingMenuKey.JustPressed())
                 Game1.activeClickableMenu = new GameMenu(GameMenu.craftingTab);
+
+            if (this.Config.SpecialOrdersMenuKey.JustPressed())
+                Game1.activeClickableMenu = new SpecialOrdersBoard();
         }
 
         private void OnUpdateTicked(object? sender, UpdateTickedEventArgs e)
@@ -323,6 +326,13 @@ namespace KeySuppressor
                 () => this.Config.CraftingMenuKey,
                 (KeybindList val) => this.Config.CraftingMenuKey = val,
                 () => "Crafting",
+                () => "Placeholder"
+            );
+            configMenu?.AddKeybindList(
+                mod: this.ModManifest,
+                () => this.Config.SpecialOrdersMenuKey,
+                (KeybindList val) => this.Config.SpecialOrdersMenuKey = val,
+                () => "Special Orders",
                 () => "Placeholder"
             );
 
